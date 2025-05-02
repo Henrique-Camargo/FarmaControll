@@ -1,4 +1,4 @@
-package model.enums;
+package dev.FarmaControll.farmaControll.model.enums;
 
 public enum Category {
 

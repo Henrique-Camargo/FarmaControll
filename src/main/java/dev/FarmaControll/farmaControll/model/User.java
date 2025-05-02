@@ -1,10 +1,10 @@
-package model;
+package dev.FarmaControll.farmaControll.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import model.enums.Role;
+import dev.FarmaControll.farmaControll.model.enums.Role;
 
 import java.io.Serializable;
 

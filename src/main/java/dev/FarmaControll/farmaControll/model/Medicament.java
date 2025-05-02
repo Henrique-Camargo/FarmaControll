@@ -1,11 +1,11 @@
-package model;
+package dev.FarmaControll.farmaControll.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import model.enums.Category;
-import model.enums.Manufacturer;
+import dev.FarmaControll.farmaControll.model.enums.Category;
+import dev.FarmaControll.farmaControll.model.enums.Manufacturer;
 
 import java.io.Serializable;
 import java.time.LocalDate;
@@ -25,7 +25,7 @@ public class Medicament implements Serializable {
     private Manufacturer manufacturer;
     private Category category;
     private LocalDate localDate;
-    private Integer quantity;
+    private Double quantity;
     private String lote;
 
 
